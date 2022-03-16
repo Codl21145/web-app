@@ -64,4 +64,5 @@ require_once "login_check.php";
 if (isset($_SESSION['identity'])) {
     redirect();
 }
+// 123
 //if(isset($_SESSION['identity'])) {header('Location: index.php');}
